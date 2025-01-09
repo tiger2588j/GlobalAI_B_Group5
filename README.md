@@ -1,2 +1,3 @@
-# Title
-description 
+# Stroke Prediction With Various ML Models
+ Our goal was to develop a machine learning model capable of predicting stroke occurrence, aiming to create a more cost-effective and accessible diagnostic process for a condition that is currently challenging and expensive to diagnose. To achieve this, we utilized a dataset on stroke occurrence with diverse variables such as work type, age, BMI, and more. Given the binary nature of the target variable (stroke occurrence: 0 or 1), we selected the Linear Regression model and MLPClassifier for analysis.
+ During the analysis, we achieved high accuracy and specificity; however, the precision and recall scores were notably poor. Further investigation revealed that data imbalance suppressed True Positive (TP) values, resulting in low precision and recall scores. To address this issue, we applied SMOTE (Synthetic Minority Oversampling Technique), which mitigates data imbalance by increasing the proportion of the minority class. This approach significantly improved both precision and recall scores, enhancing the overall model performance.
